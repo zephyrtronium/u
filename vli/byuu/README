@@ -1,0 +1,1 @@
+byuu's VLQ format encodes seven bits into each output octet, with the high bit set on the last octet in the encoding. The order is little-endian.

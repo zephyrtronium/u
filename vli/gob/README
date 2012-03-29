@@ -1,0 +1,3 @@
+The encoding/gob VLI format encodes integers representable in seven bits in one octet without special encoding. Values greater than 127 are encoded using the full eight bits of each octet in big-endian order, prefixed by the negated length of the sequence. Integers encoded with the Signed functions are first bit-complemented iff negative, then shifted left once, then encoded as an unsigned integer with the low bit set iff the value was complemented.
+
+The main difference between this package and encoding/gob is that types are not encoded.
