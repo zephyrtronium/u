@@ -9,7 +9,7 @@ details.
 package vli
 
 import (
-	"../bits"
+	"github.com/zephyrtronium/u/bits"
 	"io"
 )
 
